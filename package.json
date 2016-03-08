@@ -1,6 +1,6 @@
 {
   "name": "typemvc-cli",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "The TypeMVC command line interface",
   "author": "Jhon Mike <developer@jhonmike.com.br>",
   "license": "MIT",
@@ -28,7 +28,7 @@
   "dependencies": {
     "commander": "~2.9.0",
     "grunt-init": "~0.3.2",
-    "typemvc-generate-app": "~0.2.1"
+    "typemvc-generate-app": "~0.2.2"
   },
   "engines": {
     "node": ">= 0.12.0"
