@@ -1,3 +1,3 @@
 # Overview
 
-The [TypeFramework](http://typeframework.com) command line interface.
+The [TypeMVC](http://typemvc.github.io) command line interface.

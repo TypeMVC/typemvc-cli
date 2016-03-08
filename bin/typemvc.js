@@ -10,7 +10,7 @@ var NOOP = function() {};
 
 program.version(package.version, '-v, --version');
 
-// $ tfw new <App Name>
+// $ tmvc new <App Name>
 cmd = program.command('new [app_name]');
 cmd.usage('[app_name]');
 cmd.unknownOption = NOOP;
@@ -26,7 +26,7 @@ cmd.action(function() {
     process.chdir(appPath);
 
     var gruntInitPath = path.resolve(__dirname, '../node_modules/grunt-init/bin/grunt-init');
-    var templatePath = path.resolve(__dirname, '../node_modules/typeframework-generate-app');
+    var templatePath = path.resolve(__dirname, '../node_modules/typemvc-generate-app');
     var cmd = 'node ' + gruntInitPath + ' ' + templatePath.replace(':', '\\:'); // escape colon for windows
     exec(cmd, function(error, stdout, stderr) {
         util.puts(stdout);
@@ -38,7 +38,7 @@ cmd.action(function() {
     });
 });
 
-// $ tfw start
+// $ tmvc start
 cmd = program.command('start');
 cmd.unknownOption = NOOP;
 cmd.action(function() {
