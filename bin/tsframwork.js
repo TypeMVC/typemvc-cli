@@ -26,7 +26,7 @@ cmd.action(function() {
     process.chdir(appPath);
 
     var gruntInitPath = path.resolve(__dirname, '../node_modules/grunt-init/bin/grunt-init');
-    var templatePath = path.resolve(__dirname, '../node_modules/typemvc-generate-app');
+    var templatePath = path.resolve(__dirname, '../node_modules/ts-generate-app');
     var cmd = 'node ' + gruntInitPath + ' ' + templatePath.replace(':', '\\:'); // escape colon for windows
     exec(cmd, function(error, stdout, stderr) {
         util.puts(stdout);

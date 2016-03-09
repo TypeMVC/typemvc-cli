@@ -1,11 +1,11 @@
 {
-  "name": "typemvc-cli",
+  "name": "tsfw-cli",
   "version": "0.1.5",
-  "description": "The TypeMVC command line interface",
+  "description": "The TSFramework command line interface",
   "author": "Jhon Mike <developer@jhonmike.com.br>",
   "license": "MIT",
   "keywords": [
-    "typemvc",
+    "tsframwork",
     "typeframework",
     "framework",
     "mvc",
@@ -16,19 +16,19 @@
     "api"
   ],
   "bin": {
-    "tmvc": "./bin/typemvc.js"
+    "tsfw": "./bin/tsframwork.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/TypeMVC/typemvc-cli.git"
+    "url": "git://github.com/tsframwork/tsfw-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/TypeMVC/typemvc-cli/issues"
+    "url": "https://github.com/tsframwork/tsfw-cli/issues"
   },
   "dependencies": {
     "commander": "~2.9.0",
     "grunt-init": "~0.3.2",
-    "typemvc-generate-app": "~0.2.2"
+    "ts-generate-app": "~0.2.2"
   },
   "engines": {
     "node": ">= 0.12.0"

@@ -1,3 +1,3 @@
 # Overview
 
-The [TypeMVC](http://typemvc.github.io) command line interface.
+The [TSFramework](http://tsframework.github.io) command line interface.
