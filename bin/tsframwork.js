@@ -10,7 +10,7 @@ var NOOP = function() {};
 
 program.version(package.version, '-v, --version');
 
-// $ tmvc new <App Name>
+// $ tsfw new <App Name>
 cmd = program.command('new [app_name]');
 cmd.usage('[app_name]');
 cmd.unknownOption = NOOP;
@@ -38,7 +38,7 @@ cmd.action(function() {
     });
 });
 
-// $ tmvc start
+// $ tsfw start
 cmd = program.command('start');
 cmd.unknownOption = NOOP;
 cmd.action(function() {
