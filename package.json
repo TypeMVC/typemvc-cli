@@ -1,6 +1,6 @@
 {
   "name": "tsfw-cli",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "The TSFramework command line interface",
   "author": "Jhon Mike <developer@jhonmike.com.br>",
   "license": "MIT",
