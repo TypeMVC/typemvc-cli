@@ -28,7 +28,7 @@
   "dependencies": {
     "commander": "~2.9.0",
     "grunt-init": "~0.3.2",
-    "ts-generate-app": "~0.2.4"
+    "ts-generate-app": "~0.2.5"
   },
   "engines": {
     "node": ">= 0.12.0"
